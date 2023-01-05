@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <title>My website</title>
+    </head>
+        <body>
+           <h1>Iniciar</h1>
+            <form action="Resultados.html" method="get">
+            <div>
+                <label for="Name">Nombre de usuario</label>
+                <input id="Name" required>
+            </div>
+            <br>
+            <div>
+                <label for="Password">Clave</label> 
+                <input id="Password" required> 
+            </div> <br>
+            <div>
+                <label for="Edad">Edad</label>
+                <input type="number" name="Edad" id="Edad" min="0" max="200" step="5">
+            </div> <br>
+            <div>
+                <label for="birth">Fecha de nacimiento</label>
+                <input type="date" name="birth" id="birth">
+            </div> <br>
+            <div>
+                <label for="Email">Correo electronico</label>
+                <input type="email" name="email" id="email">
+            </div> <br>
+            <div>
+                <label for="Comentarios">Comentarios</label>
+                <textarea name="Comentarios" id="Comentarios" cols="20" rows="3" style="width: 146px; height: 17px;">->Escribir aqui<-</textarea>
+            </div>
+                <br>
+
+                <button type="reset">Borrar</button>
+                <button type="submit">Enviar</button>
+
+            </form>
+        </body>
+</html>
